@@ -1,8 +1,10 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import dotenv from 'dotenv'
 import mongoose from 'mongoose';
 import cors from 'cors';
-require('dotenv').config();
+
+dotenv.config()
 //const express = require('express'); // 1 - with latest npm we can use import statments
 // go in package.json and add type: module 
 // Step 2 ------------>>>>>>>> Routing
